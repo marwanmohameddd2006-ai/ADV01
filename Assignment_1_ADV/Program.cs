@@ -198,6 +198,15 @@ namespace Assignment_1_ADV
              */
             #endregion
 
+            #region Q18
+            //Q:  What is the difference between covariance and contravariance?
+
+            /*Ans 
+             *  Static members in generic types are shared by all objects of the same constructed type, 
+             *  but each different type argument gets its own separate static member.
+             */
+            #endregion
+
         }
     }
 }
