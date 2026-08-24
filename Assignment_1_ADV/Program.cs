@@ -17,6 +17,15 @@
                        Clean Code
              */
             #endregion
+
+            #region Q02
+            //Q: : Write a generic class Container<T> with Add and Get methods.
+
+            //Container<int> num = new Container<int>();
+            //num.SetNum(1);
+            //Console.WriteLine(num.GetNum());
+
+            #endregion
         }
     }
 }
