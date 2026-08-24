@@ -1,4 +1,5 @@
-﻿using Assignment_1_ADV.Q10;
+﻿using Assignment_1_ADV.Q014;
+using Assignment_1_ADV.Q10;
 using Assignment_1_ADV.Q11;
 
 namespace Assignment_1_ADV
@@ -140,6 +141,19 @@ namespace Assignment_1_ADV
             /*Ans 
              * the default keyword in generics returns the default value of a type parameter T.
              */
+            #endregion
+
+            #region Q14
+           
+            //SafeList<string> list = new SafeList<string>();
+            //list.Add("Ahmed");
+            //list.Add("Mahmoud");
+            //list.Add("Khaled");
+
+
+            //Console.WriteLine($"Element at index 0:{list.GetElementAt(0)}");
+            //Console.WriteLine($"Element at index 5:{list.GetElementAt(5)??"Null"}");
+
             #endregion
         }
     }
