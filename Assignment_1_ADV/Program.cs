@@ -1,4 +1,6 @@
-﻿namespace Assignment_1_ADV
+﻿using Assignment_1_ADV.Q10;
+
+namespace Assignment_1_ADV
 {
     internal class Program
     {
@@ -98,9 +100,20 @@
              * What ==> the 'new()' constraint requires the type argument to have a public parameterless constructor.
              */
 
-            //Test3<Person> t1 = new Test3<Person>(); // invalid becase person not have parameterless constructor
-           // Test3<Person2> t2 = new Test3<Person2>(); // valid becase person2  have parameterless constructor
+            //Test3<Person> t1 = new Test3<Person>();     // invalid becase person not have parameterless constructor
+            // Test3<Person2> t2 = new Test3<Person2>(); // valid becase person2  have parameterless constructor
             #endregion
+
+            #region Q10
+           // //Q:  What is the interface constraint? Write an example
+           // /*Ans
+           //  * What ==> the interface constraint required that type must implement a specific interface.
+           //  */
+
+           // Printer<Test4> t4 = new Printer<Test4>();// valid becase Test4  implement interface
+           // t4.print2(new Test4());
+           //// Printer<string> t5 = new Printer<string>(); // invalid becase string donot implement interface
+           #endregion                                   
         }
     }
 }
