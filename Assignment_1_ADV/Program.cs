@@ -1,4 +1,5 @@
 ﻿using Assignment_1_ADV.Q014;
+using Assignment_1_ADV.Q015;
 using Assignment_1_ADV.Q10;
 using Assignment_1_ADV.Q11;
 
@@ -144,7 +145,7 @@ namespace Assignment_1_ADV
             #endregion
 
             #region Q14
-           
+
             //SafeList<string> list = new SafeList<string>();
             //list.Add("Ahmed");
             //list.Add("Mahmoud");
@@ -155,6 +156,22 @@ namespace Assignment_1_ADV
             //Console.WriteLine($"Element at index 5:{list.GetElementAt(5)??"Null"}");
 
             #endregion
+
+            #region Q15
+            //Q: What is covariance? Explain the 'out' keyword
+            /*Ans
+             * What => Use the out keyword to specify that the type parameter is used only as output (return type).
+                       It enables covariance. 
+             */
+
+            CatShelter catShelter = new CatShelter();
+            Console.WriteLine( catShelter.GetAnimal().Name);
+           
+
+            IShelter<Animal> animalShelter = catShelter;
+            animalShelter.GetAnimal();
+            #endregion
+
         }
     }
 }
