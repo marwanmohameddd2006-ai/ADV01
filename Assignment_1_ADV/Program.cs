@@ -133,6 +133,14 @@ namespace Assignment_1_ADV
             //MustBase<Child1> ch1 = new MustBase<Child1>();// vaild becaus inherit from base , implement interface and have parameterless constructor
             //MustBase<Child2> ch2 = new MustBase<Child2>(); // invaild becaus donot inherit from base, implement interface and have parameterless constructor
             #endregion
-    }
+
+            #region Q13
+            //Q:What does the 'default' keyword do in generics?
+
+            /*Ans 
+             * the default keyword in generics returns the default value of a type parameter T.
+             */
+            #endregion
+        }
     }
 }
