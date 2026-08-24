@@ -26,6 +26,18 @@
             //Console.WriteLine(num.GetNum());
 
             #endregion
+
+            #region Q03
+            ////Q: What are multiple type parameters? Write Pair<TKey, TValue>
+
+            ///*Ans
+            // * What ==> generic class can have more than one type paramater
+            // */
+
+            //EmployeePair<int, string> E1 = new EmployeePair<int, string>(10, "Marwan");
+            //Console.WriteLine($"First=> {E1.First} , Secound=> {E1.Second}");
+
+            #endregion
         }
     }
 }
