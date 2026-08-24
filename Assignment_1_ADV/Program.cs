@@ -59,6 +59,17 @@
             //int[] items = { 7, 3, 19, 100 };
             //Console.WriteLine($"MaxValue ==> {FindMax.FindMaxMethod(items)}");
             #endregion
+
+            #region Q06
+            //Q:  What is a generic interface? Write IRepository<T>
+
+            /*Ans
+             * What ==> generic allow you to write interface with type pramaters
+                        The actual type is specified when the cod is used 
+             */
+            // IRepository ==> Create Done
+
+            #endregion
         }
     }
 }
