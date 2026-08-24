@@ -180,13 +180,22 @@ namespace Assignment_1_ADV
                        It enables contravariance.
              */
 
-           //CatShelter catShelter2 = new CatShelter();
+            //CatShelter catShelter2 = new CatShelter();
             //Console.WriteLine( catShelter2.GetAnimal().Name);
-            
 
-             //IShelter2<Cat> shelter = new AnimalShelter();
+
+            //IShelter2<Cat> shelter = new AnimalShelter();
 
             //shelter.Treat(new Cat("C01"));
+            #endregion
+
+            #region Q17
+            //Q:  What is the difference between covariance and contravariance?
+
+            /*Ans 
+             *  Keyword =>   ( covariance : out ) , ( contravariance: in )
+             *  Direction => ( covariance : Derived → Base ) , ( contravariance: Base → Derived )
+             */
             #endregion
 
         }
