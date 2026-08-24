@@ -199,11 +199,20 @@ namespace Assignment_1_ADV
             #endregion
 
             #region Q18
-            //Q:  What is the difference between covariance and contravariance?
+            //Q:  How do static members work in generic types?
 
             /*Ans 
              *  Static members in generic types are shared by all objects of the same constructed type, 
              *  but each different type argument gets its own separate static member.
+             */
+            #endregion
+
+            #region Q19
+            //Q:   How can you inherit from a generic class?
+
+            /*Ans 
+             *  You can inherit from a generic class by specifying its type argument, 
+             *  or by passing a generic type parameter from the derived class.
              */
             #endregion
 
