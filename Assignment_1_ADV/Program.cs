@@ -70,6 +70,16 @@
             // IRepository ==> Create Done
 
             #endregion
+
+            #region Q07
+            ////Q:  What is the 'struct' constraint? Write an example
+            ///*Ans
+            // * What ==>  the 'struct' constraint allow only value types
+            // */
+
+            ////Test1<string> t1 = new Test1<string>(); // invalid because string is Reference type
+            //Test1<int> t2 = new Test1<int>(); // valid because int is Value type
+            #endregion
         }
     }
 }
