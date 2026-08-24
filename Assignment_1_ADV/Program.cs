@@ -91,6 +91,16 @@
             //Test2<string> t2 = new Test2<string>(); //// valid because string is Reference type
 
             #endregion
+
+            #region Q09
+            //Q:  What is the 'new()' constraint? Write an example
+            /*Ans
+             * What ==> the 'new()' constraint requires the type argument to have a public parameterless constructor.
+             */
+
+            //Test3<Person> t1 = new Test3<Person>(); // invalid becase person not have parameterless constructor
+           // Test3<Person2> t2 = new Test3<Person2>(); // valid becase person2  have parameterless constructor
+            #endregion
         }
     }
 }
