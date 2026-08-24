@@ -1,4 +1,5 @@
 ﻿using Assignment_1_ADV.Q10;
+using Assignment_1_ADV.Q11;
 
 namespace Assignment_1_ADV
 {
@@ -105,15 +106,27 @@ namespace Assignment_1_ADV
             #endregion
 
             #region Q10
-           // //Q:  What is the interface constraint? Write an example
-           // /*Ans
-           //  * What ==> the interface constraint required that type must implement a specific interface.
-           //  */
+            // //Q:  What is the interface constraint? Write an example
+            // /*Ans
+            //  * What ==> the interface constraint required that type must implement a specific interface.
+            //  */
 
-           // Printer<Test4> t4 = new Printer<Test4>();// valid becase Test4  implement interface
-           // t4.print2(new Test4());
-           //// Printer<string> t5 = new Printer<string>(); // invalid becase string donot implement interface
-           #endregion                                   
+            // Printer<Test4> t4 = new Printer<Test4>();// valid becase Test4  implement interface
+            // t4.print2(new Test4());
+            //// Printer<string> t5 = new Printer<string>(); // invalid becase string donot implement interface
+            #endregion
+
+            #region Q11
+            ////Q:  What is the base class constraint? Write an example
+
+            ///*Ans
+            // * What ==>  base class constraint required T is base class or any class inherit from base calss
+            // */
+
+            //MustBase<Child1> ch1 = new MustBase<Child1>(); // vaild becaus inherit from base
+            //ch1.DisPlay(new Child1());
+            ////MustBase<Child2> ch2 = new MustBase<Child2>(); // invaild becaus donot inherit from base
+            #endregion
         }
     }
 }
