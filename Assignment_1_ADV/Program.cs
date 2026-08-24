@@ -38,6 +38,22 @@
             //Console.WriteLine($"First=> {E1.First} , Secound=> {E1.Second}");
 
             #endregion
+
+            #region Q04
+            //Q: What is a generic method? Write Swap<T> method
+
+            /*Ans 
+             * What => generic allow you to write method with type pramaters
+                        The actual type is specified when the cod is used
+                        When class not generic
+             */
+            //int x = 10;
+            //int y = 20;
+            //Console.WriteLine($"Befor Swap X=> {x} , Y=> {y}");
+            //Swap.SwapMethod(ref x, ref y);
+            //Console.WriteLine($"After Swap X=> {x} , Y=> {y}");
+
+            #endregion
         }
     }
 }
