@@ -127,6 +127,12 @@ namespace Assignment_1_ADV
             //ch1.DisPlay(new Child1());
             ////MustBase<Child2> ch2 = new MustBase<Child2>(); // invaild becaus donot inherit from base
             #endregion
-        }
+
+            #region Q12
+            ////Q: How do you apply multiple constraints? Write an example
+            //MustBase<Child1> ch1 = new MustBase<Child1>();// vaild becaus inherit from base , implement interface and have parameterless constructor
+            //MustBase<Child2> ch2 = new MustBase<Child2>(); // invaild becaus donot inherit from base, implement interface and have parameterless constructor
+            #endregion
+    }
     }
 }
