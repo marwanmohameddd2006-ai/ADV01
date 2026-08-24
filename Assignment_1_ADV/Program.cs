@@ -80,6 +80,17 @@
             ////Test1<string> t1 = new Test1<string>(); // invalid because string is Reference type
             //Test1<int> t2 = new Test1<int>(); // valid because int is Value type
             #endregion
+
+            #region Q08
+            //Q:  What is the 'class' constraint? Write an example
+            /*Ans
+             * What ==> the 'struct' constraint allow only Reference types
+             */
+
+            //Test2<int> t1 = new Test2<int>(); //// invalid because int is Value type
+            //Test2<string> t2 = new Test2<string>(); //// valid because string is Reference type
+
+            #endregion
         }
     }
 }
