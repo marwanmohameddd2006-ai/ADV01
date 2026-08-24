@@ -164,12 +164,29 @@ namespace Assignment_1_ADV
                        It enables covariance. 
              */
 
-            CatShelter catShelter = new CatShelter();
-            Console.WriteLine( catShelter.GetAnimal().Name);
-           
+            //CatShelter catShelter = new CatShelter();
+            //Console.WriteLine( catShelter.GetAnimal().Name);
+            //
+            //
+            //IShelter<Animal> animalShelter = catShelter;
+            //Console.WriteLine(animalShelter.GetAnimal().Name);
+            #endregion
 
-            IShelter<Animal> animalShelter = catShelter;
-            animalShelter.GetAnimal();
+            #region Q016
+            //Q:  What is contravariance? Explain the 'in' keyword
+
+            /*Ans
+             * What => Use the in keyword to specify that the type parameter is used only as input (in parameter).
+                       It enables contravariance.
+             */
+
+           //CatShelter catShelter2 = new CatShelter();
+            //Console.WriteLine( catShelter2.GetAnimal().Name);
+            
+
+             //IShelter2<Cat> shelter = new AnimalShelter();
+
+            //shelter.Treat(new Cat("C01"));
             #endregion
 
         }
