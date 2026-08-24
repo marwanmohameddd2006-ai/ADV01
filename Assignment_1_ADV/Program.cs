@@ -54,6 +54,11 @@
             //Console.WriteLine($"After Swap X=> {x} , Y=> {y}");
 
             #endregion
+
+            #region Q05
+            //int[] items = { 7, 3, 19, 100 };
+            //Console.WriteLine($"MaxValue ==> {FindMax.FindMaxMethod(items)}");
+            #endregion
         }
     }
 }
